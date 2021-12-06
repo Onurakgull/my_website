@@ -15,9 +15,9 @@ const Navbar = () => {
             </div>
             <div className="pr-4 md:block hidden">
             <Link className="pl-4" to='/'>Ana Sayfa</Link>
-            <Link className="pl-4" to='/'>Menu</Link>
-            <Link className="pl-4" to='/'>Hakkında</Link>
-            <Link className="pl-4" to='/'>İletişim</Link>
+            <Link className="pl-4" to='/Menu'>Menu</Link>
+            <Link className="pl-4" to='/About'>Hakkında</Link>
+            <Link className="pl-4" to='/Contact'>İletişim</Link>
             </div>
         </nav>
     )

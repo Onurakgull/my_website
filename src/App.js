@@ -6,7 +6,7 @@ import Home from './pages';
 import About from './pages/About';
 import Menu from './pages/Menu';
 import Dropdown from './components/Dropdown';
-// import Contact from './pages/Contact';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
         <Route path="/" caseSensitive={false} element={<Home/>} />
         <Route path='/About' caseSensitive={false} element={<About/>} />
         <Route path='/Menu' caseSensitive={false} element={<Menu/>} />
-        {/* <Route path='/Contact' caseSensitive={false} element={<Contact/>} /> */}
+        <Route path='/Contact' caseSensitive={false} element={<Contact/>} />
         
       </Routes>
       <Footer/>
